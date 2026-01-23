@@ -1,0 +1,10 @@
+a=27
+b=26
+c=0
+print(a, "= a")
+print(b, "= b")
+c=a
+a=b
+b=c
+print(a, "= a")
+print(b, "= b")
