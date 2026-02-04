@@ -12,4 +12,4 @@ class ProductoElectronico(Producto):
         print(f"producto {self.nombre} de precio {self.precio}€ y {self.garantia_meses} meses de garantía")
 
 ent1 = ProductoElectronico("pc", 500, 6)
-ent1.mostrar(ent1.nombre, ent1.precio, ent1.garantia_meses)
+ent1.mostrar()
