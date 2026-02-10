@@ -12,7 +12,7 @@ class Mago(Personaje):
             self.mana=self.mana-10
             print(f"{self.nombre} usa el hechizo fireball, gastando 10 de mana, ahora tiene un total de {self.mana} mana!")
         else:
-            print(f"no tienes suficiente mana <mana total es {self.mana}")
+            print(f"no tienes suficiente mana <mana total es {self.mana}>")
 
 ent1 = Mago("narx", 15, 200)
 ent1.fireball()
