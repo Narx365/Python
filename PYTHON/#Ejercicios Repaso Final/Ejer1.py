@@ -17,6 +17,13 @@ while ent1 != 0:
         posit+=1
     if ent1<list0[0]:
         min=ent1
+aux = 0
+for x in (list0):
+    for y in range(len(list0)-1):
+        if list0[y] < list0[y+1]:
+            aux = list0[y]
+            list0[y] = list0[y+1]
+            list0[y+1] = aux
 print("La cantidad de numeros negativos es: ",negat)
 print("La cantidad de numeros positivos es: ",posit)
 print("El numero mayor es: ",may)
