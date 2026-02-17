@@ -1,0 +1,1 @@
+ent = str(input("Ingrese una cadena de texto: "))
